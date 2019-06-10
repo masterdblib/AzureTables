@@ -1,0 +1,7 @@
+source https://api.nuget.org/v3/index.json
+
+nuget System.Configuration 
+nuget Microsoft.Data.Services.Client
+nuget WindowsAzure.Storage
+nuget MasterDbLib.Lib.dll 0.0.1-pre
+nuget Microsoft.Azure.KeyVault.Core

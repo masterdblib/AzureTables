@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterDbLib.AzureTables.Lib", "MasterDbLib.AzureTables.Lib\MasterDbLib.AzureTables.Lib.csproj", "{8A843DB3-4AFD-4A54-BD26-D8264DE32CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDbLib.AzureTables", "MasterDbLib.AzureTables\MasterDbLib.AzureTables.csproj", "{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paket", "paket", "{0DB41FA4-1BAA-4B98-A2C4-29FC9B1BC3B7}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A843DB3-4AFD-4A54-BD26-D8264DE32CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A843DB3-4AFD-4A54-BD26-D8264DE32CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A843DB3-4AFD-4A54-BD26-D8264DE32CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A843DB3-4AFD-4A54-BD26-D8264DE32CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2505A1A-70D5-4C8F-B1EE-6D6A33CEDD38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A2E17E9-DE44-4BCF-BE7C-659AB746FEEC}
+	EndGlobalSection
+EndGlobal

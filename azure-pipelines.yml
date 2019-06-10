@@ -1,0 +1,17 @@
+pool:
+  name: Hosted VS2017
+steps:
+
+- task: isaacabraham.fsharp-helpers-extension.5bfdd7ca-9bf4-40f7-b753-fd674e7ff85c.setCredentialManager@0
+  displayName: 'Setup Paket Credential Manager'
+
+- script: build.all
+  displayName: build
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: build/deploy/nuget/
+
+- task: isaacabraham.fsharp-helpers-extension.33416f37-5fe8-488d-a2aa-48f52e7a14f9.paketCredentialCleanup@0
+  displayName: 'Cleanup Paket credential manager'

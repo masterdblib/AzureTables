@@ -1,0 +1,11 @@
+source http://nuget.org/api/v2
+
+nuget FAKE 5.8.4
+nuget Fake.DotNet.NuGet
+
+http https://dist.nuget.org/win-x86-commandline/latest/nuget.exe NuGet/nuget.exe
+
+//This will fetch nuget.exe from nuget.org and also download an early version of NUnit that contains the NUnit runner. 
+//does not replace the RestorePackages() step. The NUnit.CalculatorLib.Tests test project references the NUnit version 2.6.2 library, so we need that version too.
+nuget NUnit ~> 2.5.10
+nuget NETStandard.Library.NETFramework 2.0.0-preview2-25405-01

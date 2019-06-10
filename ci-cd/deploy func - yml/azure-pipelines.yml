@@ -1,0 +1,8 @@
+steps:
+- task: AzureFunctionApp@1
+  displayName: 'Azure Function App Deploy'
+  inputs:
+    azureSubscription: '6 - Month Plan'
+    appType: functionApp
+    appName: FunctionAppName
+    package: '$(System.DefaultWorkingDirectory)/MasterDbLib.AzureTables-CI/MasterDbLib.AzureTables.Function/*.zip'

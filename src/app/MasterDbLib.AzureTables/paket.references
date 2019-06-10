@@ -1,0 +1,5 @@
+WindowsAzure.Storage
+Microsoft.Azure.KeyVault.Core
+System.Configuration
+akka
+MasterDbLib.Lib.dll

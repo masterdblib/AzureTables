@@ -1,0 +1,8 @@
+steps:
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    packagesToPush: '$(System.DefaultWorkingDirectory)/**/*.nupkg
+    publishVstsFeed: '34c483d6-43e2-4487-ae1a-4310f09837c3'
+ 

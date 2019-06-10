@@ -1,0 +1,5 @@
+MasterDbLib.Lib.dll,0.0.1-pre
+Microsoft.Azure.KeyVault.Core,3.0.3
+Microsoft.Data.Services.Client,5.8.4
+System.Configuration,2.0.5
+WindowsAzure.Storage,9.3.3
